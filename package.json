@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-NinjaBlock-Temperature",
+  "version": "0.0",
+  "description": "Homebridge module to retrieve temperature information from the NinjaBlock cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbrandlehner/homebridge-NinjaBlock-Temperature.git"
+    },
+  "keywords": [
+    "NinjaBlock",
+    "HomeBridge"
+    ],
+  "author": "Christian Brandlehner",
+  "license": "MIT",
+  "config":{
+			"urls":[]
+	  },
+  "dependencies": {
+	  "superagent": "^1.6.1",
+	  "superagent-jsonapify": "^1.4.1"
+    }
+}
