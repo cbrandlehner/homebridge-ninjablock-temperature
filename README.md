@@ -23,7 +23,7 @@ Configuration sample:
 
 Fields: 
 * "accessory": Must always be "NinjaBlock-Temperature" (required)
-* "temperature_url": Get the API Endpoint URL from the NinjaBlocks Dashboard, add "?user_access_token=" and add your [API Access Token](https://a.ninja.is/hacking).
+* "temperature_url": Get the API Endpoint URL from the [NinjaBlocks Dashboard](https://a.ninja.is/home), add "?user_access_token=" and add your [API Access Token](https://a.ninja.is/hacking).
 *   Example: https://a.ninja.is/rest/v0/device/4412BB000300_0101_0_31?user_access_token=abc123"
 * "service": Must always be "Temperature Sensor" (required)
 * "name": Can be anything but is required
