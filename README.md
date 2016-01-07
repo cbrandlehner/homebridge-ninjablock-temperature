@@ -1,11 +1,11 @@
-# homebridge-NinjaBlock-Temperature
+# homebridge-ninjablock-temperature
 [NinjaBlock](https://developers.ninja/legacy/index.html) plugin for [HomeBridge](https://github.com/nfarina/homebridge)
 
 # Installation
 
 
 1. Install homebridge using: npm install -g homebridge
-2. Install this plugin using: npm install -g homebridge-NinjaBlock-Temperature
+2. Install this plugin using: npm install -g homebridge-ninjablock-temperature
 3. Update your configuration file. See sample-config.json snippet below. 
 
 # Configuration
