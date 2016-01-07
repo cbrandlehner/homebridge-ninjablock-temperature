@@ -31,7 +31,7 @@ HttpAccessory.prototype = {
   },
 
   identify: function(callback) {
-		this.log("Identify requested!");
+		this.log("Currently there is no way to help identify the device!");
 		callback();
 	},
 
@@ -48,7 +48,7 @@ HttpAccessory.prototype = {
 			        .on('get', this.getTemperature.bind(this));
 
 
-	return [informationService, temperatureService, humiditySensor];
+	return [informationService, temperatureService];
 		}
 	}
 };
