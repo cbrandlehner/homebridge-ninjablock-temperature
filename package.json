@@ -12,7 +12,8 @@
     },
   "keywords": [
     "NinjaBlock",
-    "HomeBridge"
+    "HomeBridge",
+    "homebridge-plugin"
     ],
   "author": "Christian Brandlehner",
   "license": "MIT",
