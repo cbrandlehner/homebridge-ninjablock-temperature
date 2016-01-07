@@ -1,6 +1,6 @@
 {
   "name": "homebridge-NinjaBlock-Temperature",
-  "version": "0.0",
+  "version": "0.1.0",
   "description": "Homebridge module to retrieve temperature information from the NinjaBlock cloud",
   "main": "index.js",
   "scripts": {
