@@ -6,7 +6,7 @@ jsonapify(superagent)
 module.exports = function(homebridge){
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-NinjaBlock-Temperature", "NinjaBlock-Temperature", HttpAccessory);
+  homebridge.registerAccessory("homebridge-ninjablock-temperature", "NinjaBlock-Temperature", HttpAccessory);
 }
 
 function HttpAccessory(log, config) {
