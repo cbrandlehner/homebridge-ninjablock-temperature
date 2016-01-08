@@ -13,7 +13,6 @@ function HttpAccessory(log, config) {
 	this.log = log;
 
 	this.temperature_url = config["temperature_url"];
-//	this.humidity_url = config["humidity_url"];
 	this.service = config["service"];
 	this.name = config["name"];
 }
